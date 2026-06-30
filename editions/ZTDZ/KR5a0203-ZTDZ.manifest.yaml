@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0203/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0203/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 三官燈儀
+  date: '2015-08-28 23:40:52.867220'
+  source:
+    repository: kanripo
+    path: KR5a0203
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0203_000-ZTDZ.yaml, hash: 'sha256:49a7d8b73ec74cdf8cf1be1f2f73f3f11bc032df048a902223009467e3508da9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0203_000-ZTDZ.markers.yaml, hash: 'sha256:11fb7f9b314beba62f1061132b473ea47e58b38ac1badf115da61c438a17e5aa'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0203_SJB_000-030570c
+    span:
+    - body
+    - 0
+    - 1102
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:32d7875aa116c84293ae72dae771fd24cf5edbdb891ba3e850b1d519fad9968b
